@@ -1,24 +1,18 @@
-# 🏦 Multithreaded Banking System in Java
+# DataMinesPDF
 
-This Java project simulates a multi-threaded banking system where multiple users (threads) can perform deposit and withdrawal transactions on a shared bank account simultaneously. The system uses thread synchronization to avoid race conditions and ensure safe transactions.
-
----
-
-## 🚀 Features
-
-- Shared bank account with thread-safe operations
-- Synchronized `deposit` and `withdraw` methods
-- Concurrent transactions via Java threads
-- Input from the user for account balance and transaction list
-- Final account balance displayed after all transactions
+**DataMinesPDF** is a Java-based command-line tool that extracts tabular data from PDF documents and converts it into structured CSV files. Built using the open-source [Tabula](https://github.com/tabulapdf/tabula-java) engine, it is ideal for extracting data from reports, invoices, academic papers, and other PDFs with tables.
 
 ---
 
-## 📂 Project Structure
+## 📌 Features
 
-```bash
-MultithreadedBanking/
-├── Main.java         # Main program to run the simulation
-├── BankAccount.java  # Class representing the shared bank account
-├── UserThread.java   # Class simulating a user performing a transaction
-└── README.md         # Project documentation
+- Extract tables from multi-page PDF documents
+- Export data in CSV format
+- Command-line driven for fast and repeatable processing
+- Supports batch processing of files
+- Lightweight and easy to use
+
+---
+
+## 📁 Project Structure
+
